@@ -11,6 +11,8 @@ public interface GuestbookService {
      */
     Long register(GuestbookDTO dto);
 
+    GuestbookDTO read(Long gno);
+
     /**
      *  PageRequestDTO를 파라미터로, PageResultDTO 를 리턴 타입으로 사용하는
      *  getList를 설계하고, 엔티티 객체를 DTO객체로 변환하는 메서드를 정의
